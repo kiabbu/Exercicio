@@ -41,7 +41,7 @@ namespace Exercicio
 
         public double calculoSalario(double seuSalario)
         {
-            return seuSalario / SALARIOMINIMO;
+            return Math.Round(seuSalario / SALARIOMINIMO, 2);
         }
 
         public string resultadoSalario(double resultadoSalario)
